@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		0D67A0DC22414E3D00243E45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D67A0DB22414E3D00243E45 /* AppDelegate.swift */; };
-		0D67A0DE22414E3D00243E45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D67A0DD22414E3D00243E45 /* ViewController.swift */; };
+		0D67A0DE22414E3D00243E45 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D67A0DD22414E3D00243E45 /* MainViewController.swift */; };
 		0D67A0E122414E3D00243E45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D67A0DF22414E3D00243E45 /* Main.storyboard */; };
 		0D67A0E422414E3D00243E45 /* geko_test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0D67A0E222414E3D00243E45 /* geko_test.xcdatamodeld */; };
 		0D67A0E622414E4500243E45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D67A0E522414E4500243E45 /* Assets.xcassets */; };
 		0D67A0E922414E4500243E45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D67A0E722414E4500243E45 /* LaunchScreen.storyboard */; };
+		0D67A0F12241962F00243E45 /* UserCrud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D67A0F02241962E00243E45 /* UserCrud.swift */; };
+		0D67A0F52241B32D00243E45 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D67A0F42241B32D00243E45 /* MainNavigationController.swift */; };
+		0D67A0F72241BAA900243E45 /* LoginWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D67A0F62241BAA900243E45 /* LoginWelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0D67A0D822414E3D00243E45 /* geko test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "geko test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D67A0DB22414E3D00243E45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0D67A0DD22414E3D00243E45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0D67A0DD22414E3D00243E45 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		0D67A0E022414E3D00243E45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0D67A0E322414E3D00243E45 /* geko_test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = geko_test.xcdatamodel; sourceTree = "<group>"; };
 		0D67A0E522414E4500243E45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D67A0E822414E4500243E45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D67A0EA22414E4500243E45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D67A0F02241962E00243E45 /* UserCrud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCrud.swift; sourceTree = "<group>"; };
+		0D67A0F42241B32D00243E45 /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		0D67A0F62241BAA900243E45 /* LoginWelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +63,15 @@
 			isa = PBXGroup;
 			children = (
 				0D67A0DB22414E3D00243E45 /* AppDelegate.swift */,
-				0D67A0DD22414E3D00243E45 /* ViewController.swift */,
+				0D67A0DD22414E3D00243E45 /* MainViewController.swift */,
 				0D67A0DF22414E3D00243E45 /* Main.storyboard */,
 				0D67A0E522414E4500243E45 /* Assets.xcassets */,
 				0D67A0E722414E4500243E45 /* LaunchScreen.storyboard */,
 				0D67A0EA22414E4500243E45 /* Info.plist */,
 				0D67A0E222414E3D00243E45 /* geko_test.xcdatamodeld */,
+				0D67A0F02241962E00243E45 /* UserCrud.swift */,
+				0D67A0F42241B32D00243E45 /* MainNavigationController.swift */,
+				0D67A0F62241BAA900243E45 /* LoginWelcomeViewController.swift */,
 			);
 			path = "geko test";
 			sourceTree = "<group>";
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D67A0F52241B32D00243E45 /* MainNavigationController.swift in Sources */,
 				0D67A0E422414E3D00243E45 /* geko_test.xcdatamodeld in Sources */,
-				0D67A0DE22414E3D00243E45 /* ViewController.swift in Sources */,
+				0D67A0F72241BAA900243E45 /* LoginWelcomeViewController.swift in Sources */,
+				0D67A0DE22414E3D00243E45 /* MainViewController.swift in Sources */,
+				0D67A0F12241962F00243E45 /* UserCrud.swift in Sources */,
 				0D67A0DC22414E3D00243E45 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
